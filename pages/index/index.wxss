@@ -1,0 +1,21 @@
+/**index.wxss**/
+
+.drag {
+  height: 400px;
+  width: 100%;
+  background: #cdcdcd;
+  position: relative;
+}
+.content{
+  position: absolute;
+  left: 0;
+  bottom: -500px!important;
+  display: flex;
+  justify-content: space-around;
+}
+.item{
+  width: 100px;
+  height: 100px;
+   position: relative;  
+  display: inline-block; 
+}

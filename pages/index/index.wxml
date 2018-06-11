@@ -1,0 +1,33 @@
+<view>
+  <view class="section">
+    <movable-area style="height: 400px; width: 100%; background: #cdcdcd;">
+      <!-- <scroll-view scroll-x style="width: 100%;"> -->
+        <block wx:for="{{imgOrgin}}">
+          <view class='item'>
+            <movable-view direction="all" out-of-bounds scale scale-min="0.5" scale-max="10" scale-value="1">
+              <image src="{{item.id}}" style='width:100px;height:100px'></image>
+            </movable-view>
+          </view>
+        </block>
+      <!-- </scroll-view> -->
+
+      <!-- <movable-view direction="all" out-of-bounds scale scale-min="0.5" scale-max="10" scale-value="1">
+              <image src="../../images/1.png" style='width:100px;height:100px'></image>
+            </movable-view>
+            <movable-view direction="all" out-of-bounds scale scale-min="0.5" scale-max="10" scale-value="1">
+              <image src="../../images/2.png" style='width:100px;height:100px'></image>
+            </movable-view>
+            <movable-view direction="all" out-of-bounds scale scale-min="0.5" scale-max="10" scale-value="1">
+              <image src="../../images/3.png" style='width:100px;height:100px'></image>
+            </movable-view>
+            <movable-view direction="all" out-of-bounds scale scale-min="0.5" scale-max="10" scale-value="1">
+              <image src="../../images/4.png" style='width:100px;height:100px'></image>
+            </movable-view>
+            <movable-view direction="all" out-of-bounds scale scale-min="0.5" scale-max="10" scale-value="1">
+              <image src="../../images/5.png" style='width:100px;height:100px'></image>
+            </movable-view>  -->
+    </movable-area>
+  </view>
+</view>
+<button bindtap='toDrag'>九宫格</button>
+<button bindtap='toImages'>生成图片</button>
