@@ -1,0 +1,5 @@
+<!--pages/arr/arr.wxml-->
+<text>pages/arr/arr.wxml</text>
+<view class='content'>
+<canvas canvas-id='my' style='width: 300px; height: 300px;transform:rotate({{deg}})' bindtouchstart='start' bindtouchmove='move' ></canvas>
+</view>

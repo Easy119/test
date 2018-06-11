@@ -48,6 +48,11 @@ Page({
   wx.navigateTo({
     url: '../canvas/canvas',
   })
+  },
+  toL:function(){
+    wx.navigateTo({
+      url: '../arr/arr',
+    })
   }
 
 

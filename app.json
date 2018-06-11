@@ -3,7 +3,8 @@
     "pages/index/index",
     "pages/logs/logs",
     "pages/drag/drag",
-    "pages/canvas/canvas"
+    "pages/canvas/canvas",
+    "pages/arr/arr"
   ],
   "window":{
     "backgroundTextStyle":"light",

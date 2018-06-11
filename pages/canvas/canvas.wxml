@@ -3,6 +3,7 @@
   <!-- <view class='myCanvas' style="transform: translateX({{x}}) translateY({{y}}) translateZ(0px) scale(1);" bindtouchmove="move" bindtouchstart='start'> -->
   <view class='myCanvas' style="top:{{y}};left:{{x}}" bindtouchmove="move" bindtouchstart='start'>
     <canvas canvas-id="myCanvas" style='width: 100px; height: 100px;' />
+    <canvas canvas-id="yourCanvas" style='width: 100px; height: 100px;' />
   </view>
 </view>
 <button bindtap='getImg'>生产图片</button>

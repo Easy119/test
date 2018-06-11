@@ -1,0 +1,6 @@
+/* pages/arr/arr.wxss */
+.content{
+  width: 100%;
+  height: 400px;
+  background-color: red;
+}
