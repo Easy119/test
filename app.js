@@ -1,1 +1,2 @@
 //app.js
+var items = []

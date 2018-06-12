@@ -53,6 +53,11 @@ Page({
     wx.navigateTo({
       url: '../arr/arr',
     })
+  },
+  box:function(){
+    wx.navigateTo({
+      url: '../box/box',
+    })
   }
 
 

@@ -32,3 +32,4 @@
 <button bindtap='toDrag'>九宫格</button>
 <button bindtap='toImages'>生成图片</button>
 <button bindtap='toL'>旋转</button>
+<button bindtap='box'>box</button>

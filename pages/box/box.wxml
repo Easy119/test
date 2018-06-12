@@ -1,0 +1,11 @@
+<!--pages/box/box.wxml-->
+<view class='content'>
+  <block wx:for="{{itemList}}" wx:key="{{item.id}}">
+    <view class="img_box" class='box' id='{{item.id}}' style='left:{{item.left+"px"}};top:{{item.top+"px"}};transform: scale({{item.scale}}) '>
+      <image src="{{item.image}}" class='box' id='{{item.id}}' style='left:{{item.left+"px"}};top:{{item.top+"px"}};transform: scale({{item.scale}}) rotate({{item.angle}}deg)' bindtouchstart='start' bindtouchmove='move' bindtouchend='end'></image>
+      <view class='close' wx:if="{{item.active}}" bindtouchstart='colseStart' bindtouchmove='closeMove'  data-id='{{item.id}}'>{{item.id}}</view>
+    </view>
+
+  </block>
+
+</view>

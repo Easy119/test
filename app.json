@@ -4,7 +4,8 @@
     "pages/logs/logs",
     "pages/drag/drag",
     "pages/canvas/canvas",
-    "pages/arr/arr"
+    "pages/arr/arr",
+    "pages/box/box"
   ],
   "window":{
     "backgroundTextStyle":"light",
